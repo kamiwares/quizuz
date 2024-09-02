@@ -1,0 +1,72 @@
+
+.collection-element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{ 
+    padding: 12px;
+    background-color: rgb(253, 253, 253);
+}
+.collection-element img{
+    max-width: 312px;
+}
+.select-answer-wrapper{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-set-input {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    padding: 8px 24px;
+    height: 48px;
+    margin-top: 32px;
+    transition: 0.5s all;
+    font-size: 24px;
+    box-shadow: inset 0px -2px 0px 0px #a8b1ff;
+}
+
+label {
+    font-size: 16px;
+    color: #586380;
+    font-weight: 500;
+}
+
+.create-set-input input {
+    all: unset;
+}
+.button{
+    margin-top: 24px;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    display: none;
+}
+.summary-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 32px;
+    gap: 32px;
+}
+.err{
+    color: rgb(255, 82, 82);
+    display: none;
+}
+.correct{
+    background-color: rgba(147, 248, 147, 0.671);
+}
+.incorrect{
+    background-color: rgba(255, 156, 156, 0.76);
+}
